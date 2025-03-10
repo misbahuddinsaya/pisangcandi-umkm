@@ -945,8 +945,7 @@
       background-image: url('/assets/img/pagetitle-img/pagetitle4.png'); /* Gambar untuk HP */
       background-position: right center; /* Sesuaikan posisi */
       background-size: cover;
-      padding: 15px;
-      width: 100%;
+      min-height: 180px;
   }
 }
 
