@@ -924,13 +924,13 @@
   # Global Page Titles & Breadcrumbs
   --------------------------------------------------------------*/
   .page-title {
-    background-image: url('/assets/img/pagetitle-img/pagetitle3.png');  
+    background-image: url('/assets/img/pagetitle-img/pagetitle4.png');  
     font-family: var(--default-font);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
-    min-height: 200px; /* Atur tinggi minimum agar tidak terpotong */
-    padding: 10px; /* Tambah padding agar konten lebih rapi */
+    min-height: 100px; /* Atur tinggi minimum agar tidak terpotong */
+    padding: 1px; /* Tambah padding agar konten lebih rapi */
     text-align: center;
     position: relative;
     background-color: white;
