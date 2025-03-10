@@ -53,7 +53,7 @@
                                     <span class="price-tag">IDR 2.550.000</span>
                                     <span class="price"> per pax</span>
                                 </div>
-                                <a href="#" class="detail-link">Lihat Detail <i class="bi bi-chevron-right"></i></a>
+                                <a href="#" class="detail-link-opentrip">Lihat Detail <i class="bi bi-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                                     <span class="price-tag">IDR 2.550.000</span>
                                     <span class="price"> per pax</span>
                                 </div>
-                                <a href="#" class="detail-link">Lihat Detail <i class="bi bi-chevron-right"></i></a>
+                                <a href="#" class="detail-link-opentrip">Lihat Detail <i class="bi bi-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>

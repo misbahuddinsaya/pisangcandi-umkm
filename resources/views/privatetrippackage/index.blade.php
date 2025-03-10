@@ -7,16 +7,21 @@
 @section('content')
 <div class="page-title">
     <div class="container d-lg-flex justify-content-between align-items-center">
-        <div class="image-container">
-            <img src="{{ asset('assets/img/privatetrip-img/privatetrip1.png') }}" alt="Private Trip">
-            <div class="text-overlay">
-                <h1>Private Trip Package</h1>
-                <p>Temukan destinasi terbaik anda.</p>
-            </div>
-        </div>
-        <div class="logo-container">
-            <img src="{{ asset('assets/img/LogoDulinDiluk.png') }}" alt="Dulin Diluk">
-        </div>
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="/"><i class="bi bi-arrow-left"></i></a></li>
+            </ol>
+            <ol class="mt-5">
+                <li>
+                    <h1>Private Trip</h1>
+                </li>
+            </ol>
+            <ol>
+                <li>
+                    <p>Temukan destinasi terbaik anda.</p>
+                </li>
+            </ol>
+        </nav>
     </div>
 </div>
 <!-- End Page Title -->
@@ -43,8 +48,9 @@
                             <p class="card-text">
                                 <span class="icon"><i class="bi bi-calendar"></i></span> 3 Hari 2 Malam
                             </p>
-                            <p class="card-text">
-                                <span class="icon"><i class="bi bi-bus-front-fill"></i></span> Meeting Point: Gresik-Surabaya-Sidoarjo
+                            <p class="card-text-point">
+                                <span class="meeting-title">Meeting Point: </span>
+                                <span>Gresik-Surabaya-Sidoarjo</span>
                             </p>
 
                             <div class="price-container">
@@ -52,9 +58,9 @@
                                 <div class="price-wrap">
 
                                     <span class="price-tag">IDR 875.000</span>
-                                    <span class="price"> per orang</span>
+                                    <span class="price"> / Pax</span>
                                 </div>
-                                <a href="#" class="detail-link">Lihat Detail <i class="bi bi-chevron-right"></i></a>
+                                <a href="#" class="detail-link-privatetrip">Lihat Trip <i class="bi bi-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>

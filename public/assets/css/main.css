@@ -1894,8 +1894,8 @@
     font-family: var(--heading-font);
     font-size: 18px;
     font-weight: bold;
-    color: #333;
-    margin-bottom: 40px;
+    color: #007b8f;
+    margin-bottom: 10px;
   }
   
   .card-text {
@@ -1919,6 +1919,27 @@
     display: flex; 
     justify-content: space-between;
   }
+  .card-meeting {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666; /* Warna abu-abu untuk teks default */
+    font-weight: 400;
+}
+
+.meeting-title {
+    display: block;  /* Agar "Meeting Point" berada di atas */
+    font-size: 14px;
+    font-weight: 600;
+    color: #007b8f;
+}
+
+.card-text-point span:last-child {
+    color: var(--accent-color); /* Warna oranye untuk lokasi */
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    line-height: 1.5;
+}
   
   .price-wrap {
     display: flex;
@@ -1934,7 +1955,7 @@
   }
   .price-title{
     font-family: var(--default-font);
-    color: #777;
+    color: #007b8f;
   }
   
   .price-tag {
@@ -1944,12 +1965,18 @@
     color: #f57c00; /* Warna orange */
   }
   
-  .detail-link {
+  .detail-link-opentrip {
+    text-decoration: none;
+    font-family: var(--default-font);
+    font-weight: 500;
+    color: #007b8f;
+  }
+  .detail-link-privatetrip {
     margin-top: 30px;
     text-decoration: none;
     font-family: var(--default-font);
     font-weight: 500;
-    color: var(--accent-color);
+    color: #007b8f;
   }
   
   .price span {
@@ -2090,6 +2117,7 @@
   }
   
   .service-details p {
+    font-weight: 500;
     font-size: 15px;
   }
   
@@ -2480,7 +2508,6 @@ textarea.form-control {
 
 .icon {
     padding: 5px;
-    background-color: #f1f1f1;
 }
   
   .custom-date-picker {
